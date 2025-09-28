@@ -30,6 +30,7 @@ export default function Home() {
     const data = new URLSearchParams();
     data.append("name", form.name.value);
     data.append("email", form.email.value);
+    data.append("phone", form.phone.value);
     try {
       const response = await fetch(
         process.env.NEXT_PUBLIC_SHEET,
@@ -80,7 +81,7 @@ export default function Home() {
           onClick={handleScrollToForm}
           type="button"
         >
-          Get your free guide now! <span role="img" aria-label="point right">👉</span>
+          Get your free guide & consultation now! <span role="img" aria-label="point right">👉</span>
         </button>
       </header>
       <main className="flex-grow pt-">
@@ -122,7 +123,7 @@ export default function Home() {
                 onClick={handleScrollToForm}
                 type="button"
               >
-                Get Your Free Guide Now!
+                Get Your Free Guide & Consultation Now!
               </button>
             </div>
           </div>
@@ -184,10 +185,10 @@ traps.
 Imagine...   </p>
         
             <ul className="list-none space-y-2 mb-4">
-               <li className="flex items-start font-poppins text-[#333333]"><span className="text-[#C7A740] mr-2">✅</span> <b>Knowing the EXACT steps </b> to find the best home at the right price.</li>
-                  <li className="flex items-start font-poppins text-[#333333]"><span className="text-[#C7A740] mr-2">✅</span> <b>Avoiding legal & financial mistakes </b> that could cost you a fortune.</li>
-                  <li className="flex items-start font-poppins text-[#333333]"><span className="text-[#C7A740] mr-2">✅</span> <b>Getting expert guidance </b> to negotiate like a pro and save lakhs!</li>
-                  <li className="flex items-start font-poppins text-[#333333]"><span className="text-[#C7A740] mr-2">✅</span> <b>Having a team that works for YOU </b> (not just builders & sellers).</li>
+               <li className="flex items-start font-poppins text-[#333333]"><span className="text-[#C7A740] mr-2">✅</span>Knowing the EXACT steps to find the best home at the right price.</li>
+                  <li className="flex items-start font-poppins text-[#333333]"><span className="text-[#C7A740] mr-2">✅</span>Avoiding legal & financial mistakes that could cost you a fortune.</li>
+                  <li className="flex items-start font-poppins text-[#333333]"><span className="text-[#C7A740] mr-2">✅</span>Getting expert guidanceto negotiate like a pro and save lakhs!</li>
+                  <li className="flex items-start font-poppins text-[#333333]"><span className="text-[#C7A740] mr-2">✅</span>Having a team that works for YOU  (not just builders & sellers).</li>
                </ul>
             <p className="font-poppins text-[#333333] text-base md:text-lg font-medium">
               👉 Sounds familiar? You're not alone!
