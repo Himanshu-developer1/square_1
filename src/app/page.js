@@ -67,7 +67,7 @@ export default function Home() {
       {/* Header */}
       <header className="w-full bg-[#F4EDE6] px-10 py-4 flex items-center justify-between rounded-tl-[32px] rounded-tr-[32px]">
         <Image
-          src="/logo.jpg"
+          src="/SIR_Logo.png"
           alt="SquareInchesRealty Logo"
           width={120}
           height={80}
@@ -160,7 +160,7 @@ traps.
 
          <div className="flex justify-center mb-4">
                       <Image
-                        src="/guide-cover.jpg"
+                        src="/blue-logo.jpg"
                         alt="Guide Cover"
                         width={180}
                         height={240}
@@ -190,9 +190,16 @@ Imagine...   </p>
                   <li className="flex items-start font-poppins text-[#333333]"><span className="text-[#C7A740] mr-2">✅</span>Getting expert guidanceto negotiate like a pro and save lakhs!</li>
                   <li className="flex items-start font-poppins text-[#333333]"><span className="text-[#C7A740] mr-2">✅</span>Having a team that works for YOU  (not just builders & sellers).</li>
                </ul>
-            <p className="font-poppins text-[#333333] text-base md:text-lg font-medium">
-              👉 Sounds familiar? You're not alone!
-            </p>
+               <div className="flex justify-center mb-4">
+                      <Image
+                        src="/image.jpg"
+                        alt="Guide Cover"
+                        width={180}
+                        height={240}
+                        className="rounded-lg shadow"
+                        unoptimized
+                      />
+                    </div>
           </div>
 
 
@@ -238,6 +245,16 @@ Imagine...   </p>
                   </li>
                 </ul>
               </div>
+              <div className="flex justify-center mb-4">
+                      <Image
+                        src="/guide-cover.jpg"
+                        alt="Guide Cover"
+                        width={180}
+                        height={240}
+                        className="rounded-lg shadow"
+                        unoptimized
+                      />
+                    </div>
             </div>
 
            { /* CTA Section */}
@@ -459,7 +476,7 @@ Imagine...   </p>
               </p>
          <div className="flex justify-center mb-4">
                       <Image
-                        src="/guide-cover.jpg"
+                        src="/image.jpg"
                         alt="Guide Cover"
                         width={180}
                         height={240}
