@@ -101,7 +101,7 @@ export default function Home() {
             </div>
             <div className="text-center mb-10 mt-8">
               <h1 className="font-playfair text-[#333333] font-bold text-3xl md:text-5xl mb-4 tracking-tight leading-tight" style={{ letterSpacing: "-0.01em", lineHeight: "1.2" }}>
-                Finding Your Dream Home in Lucknow? Start Here First!
+                Finding Your Dream Home in Noida? Start Here First!
               </h1>
               <p className="font-poppins text-[#333333] text-base md:text-2xl mb-6" style={{ lineHeight: "1.5" }}>
                 Smart buyers know where to look—unlock hidden deals and expert insights before you buy!
@@ -205,7 +205,7 @@ Imagine...   </p>
 
            <div className="bg-[#F4EDE6] p-6 rounded-lg flex flex-col justify-center">
                 <p className="font-poppins text-[#333333] text-base md:text-lg mb-4">
-                  This is exactly what we do. We help homebuyers in Lucknow <b>find their dream home, hassle-free.</b>
+                  This is exactly what we do. We help homebuyers in Noida <b>find their dream home, hassle-free.</b>
                 </p>
                 <p className="font-poppins text-[#333333] text-base md:text-lg italic">
                   "We are a UP RERA Certified Real Estate Agency, ensuring every deal is transparent, secure, and in your best interest. Your dream home is in safe hands!"
@@ -215,11 +215,11 @@ Imagine...   </p>
            { /* Guide Section  */}
             <div className="text-center mb-16">
               <h2 className="font-playfair text-[#0A1F44] text-3xl md:text-4xl font-bold mb-8">
-                Introducing: The Lucknow Home Buying Guide!
+                Introducing: The Noida Home Buying Guide!
               </h2>
               <p className="font-poppins text-[#333333] text-base md:text-lg mb-8">
                 This isn't just another boring real estate guide. <b>This is your
-                step-by-step plan to buying a perfect home in Lucknow—without
+                step-by-step plan to buying a perfect home in Noida—without
                 regrets.</b>
               </p>
               <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -358,7 +358,7 @@ Imagine...   </p>
                 to answer all your personal questions
               </p>
               <p className="font-bold font-poppins text-base md:text-lg mb-1">
-                <span className="font-bold">Home prices in Lucknow are rising FAST.</span>
+                <span className="font-bold">Home prices in Noida are rising FAST.</span>
                 <span className="font-normal"> Every month your wait could cost you lakhs! <span role="img" aria-label="money bag">💰</span></span>
               </p>
               <p className="font-poppins text-base md:text-lg">
@@ -470,7 +470,7 @@ Imagine...   </p>
                   </div>
                 </div>
               <p className="font-poppins text-[#333333] text-base md:text-lg mb-6">
-                The best properties in Lucknow <b>are selling FAST</b>.<br />
+                The best properties in Noida <b>are selling FAST</b>.<br />
                 🎯 Make sure you're making the right choice—before it's too late!<br />
                 📥 Grab your FREE guide & expert consultation now!
               </p>
